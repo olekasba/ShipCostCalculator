@@ -13,7 +13,7 @@ public class Main {
         if(in.hasNextDouble())
         {
             initialPrice = in.nextDouble();
-            if(initialPrice > 100)
+            if(initialPrice >= 100)
             {
                 System.out.println("Your shipping is free!");
             }
